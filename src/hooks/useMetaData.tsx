@@ -1,24 +1,23 @@
 //@refresh
-"use client";
-import React from "react";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+'use client';
+import React from 'react';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 interface WrapperProps {
-    children: React.ReactNode;
-    pageTitle: string;
+  children: React.ReactNode;
+  pageTitle: string;
 }
 const MetaData: React.FC<WrapperProps> = ({ children, pageTitle }) => {
-
-    return (
-        <>
-            <HelmetProvider>
-                <Helmet>
-                    <title>{`${pageTitle} | Ecomart - Multi Vendor Fashion eCommerce Next Js Template`}</title>
-                </Helmet>
-                {children}
-            </HelmetProvider>
-        </>
-    );
+  return (
+    <>
+      <HelmetProvider>
+        <Helmet>
+          <title>{`${pageTitle} | CounterChain - All-in-one stop for household products`}</title>
+        </Helmet>
+        {children}
+      </HelmetProvider>
+    </>
+  );
 };
 
 export default MetaData;
