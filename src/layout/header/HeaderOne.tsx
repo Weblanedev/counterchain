@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react';
-import logoImg from '../../../public/assets/img/logo/logo-bl-p.png';
+import logoImg from '../../../public/assets/img/logo/counterchain-logo.svg';
 import Image from 'next/image';
 import Menu from './components/Menu';
 import useGlobalContext from '@/hooks/use-context';

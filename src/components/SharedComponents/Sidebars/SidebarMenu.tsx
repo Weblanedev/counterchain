@@ -2,7 +2,7 @@ import React from 'react';
 import MobileMenu from './MobileMenu';
 import useGlobalContext from '@/hooks/use-context';
 import Link from 'next/link';
-import logo from '../../../../public/assets/img/logo/logo-bl.png';
+import logo from '../../../../public/assets/img/logo/counterchain-logo.svg';
 import Image from 'next/image';
 import socials_data from '@/data/social-data';
 const SidebarMenu = () => {
