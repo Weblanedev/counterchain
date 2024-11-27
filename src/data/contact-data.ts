@@ -1,6 +1,7 @@
 import { ContactType } from '@/interFace/interFace';
 
 const contact_data: ContactType = {
+  name: 'CounterChain',
   phone: ['09083536955'],
   email: ['hello@cc.com'],
   address: [

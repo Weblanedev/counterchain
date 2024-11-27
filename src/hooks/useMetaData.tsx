@@ -1,5 +1,6 @@
 //@refresh
 'use client';
+import contact_data from '@/data/contact-data';
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
@@ -12,7 +13,7 @@ const MetaData: React.FC<WrapperProps> = ({ children, pageTitle }) => {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{`${pageTitle} | CounterChain - All-in-one stop for household products`}</title>
+          <title>{`${pageTitle} | ${contact_data.name} - All-in-one stop for household products`}</title>
         </Helmet>
         {children}
       </HelmetProvider>

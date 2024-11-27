@@ -63,7 +63,7 @@ const FooterOne = () => {
               <div className="copyright-text copyright1-text">
                 Copyright {new Date().getFullYear()} by{' '}
                 <Link href="https://themeforest.net/user/bdevs/portfolio">
-                  company
+                  {contact_data.name}
                 </Link>
                 . All Rights Reserved
               </div>

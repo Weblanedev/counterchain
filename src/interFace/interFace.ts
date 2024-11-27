@@ -138,6 +138,7 @@ export interface SocialsType {
 
 // socials-data type
 export interface ContactType {
+  name: string;
   phone: string[];
   email: string[];
   address: string[];
