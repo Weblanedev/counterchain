@@ -3,14 +3,14 @@ import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination, EffectFade } from 'swiper';
 import 'swiper/css/bundle';
-import banner1 from '../../../public/assets/img/slider-img/banner-01.png';
-import banner2 from '../../../public/assets/img/slider-img/banner-2.png';
-import banner3 from '../../../public/assets/img/slider-img/banner-3.png';
+import banner1 from '../../../public/assets/img/slider-img/clock.jpg';
+import banner2 from '../../../public/assets/img/slider-img/toolbox.jpg';
+// import banner3 from '../../../public/assets/img/slider-img/banner-3.png';
 import shape1 from '../../../public/assets/img/slider-img/shape/shape-1.png';
 import shape2 from '../../../public/assets/img/slider-img/shape/shape-2.png';
 import shape3 from '../../../public/assets/img/slider-img/shape/shape-3.png';
 import shape4 from '../../../public/assets/img/slider-img/shape/shape-4.png';
-import shape5 from '../../../public/assets/img/slider-img/shape/shape-5.png';
+// import shape5 from '../../../public/assets/img/slider-img/shape/shape-5.png';
 import shape6 from '../../../public/assets/img/slider-img/shape/shape-6.png';
 import shape7 from '../../../public/assets/img/slider-img/shape/shape-7.png';
 import Link from 'next/link';
@@ -27,21 +27,21 @@ const HeroBannerSec = () => {
     {
       id: 1,
       bgImg: banner1,
-      tagOne: 'New Arrival',
-      tagTwo: 'Hot Fashion Collection',
+      tagOne: 'Bedroom',
+      tagTwo: 'Exclusive Collection',
     },
     {
       id: 2,
       bgImg: banner2,
-      tagOne: 'On Trending',
-      tagTwo: 'Autumn Fashion For Man',
+      tagOne: 'Tools',
+      tagTwo: 'Knickknacks for every task',
     },
-    {
-      id: 3,
-      bgImg: banner3,
-      tagOne: 'Featured Product',
-      tagTwo: 'Perfect Fashion Unique Dress',
-    },
+    // {
+    //   id: 3,
+    //   bgImg: banner3,
+    //   tagOne: 'Featured Product',
+    //   tagTwo: 'Perfect Fashion Unique Dress',
+    // },
   ];
 
   return (
@@ -87,9 +87,9 @@ const HeroBannerSec = () => {
                       <div className="row align-items-center">
                         <div className="col-xxl-7 col-xl-7 col-lg-7">
                           <div className="banner-content pos-rel mb-30">
-                            <div className="banner-shape-5">
+                            {/* <div className="banner-shape-5">
                               <Image src={shape5} alt="shape-5" />
-                            </div>
+                            </div> */}
                             <span
                               data-animation="fadeInUp"
                               data-delay=".3s"
