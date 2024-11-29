@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductArea from '../../../components/home/ProductArea';
 import CategoryAreaTwo from './CategoryAreaTwo';
-import BundleComboArea from './BundleComboArea';
+// import BundleComboArea from './BundleComboArea';
 import BlogArea from './BlogArea';
 import FeaturedAreaHomeTwo from './FeaturedAreaHomeTwo';
 import SidebarMain from '../../../components/SharedComponents/Sidebars/SidebarMain';
@@ -12,7 +12,7 @@ const HomeTwoMain = () => {
       <HomeTwoBannerArea />
       <ProductArea />
       <CategoryAreaTwo />
-      <BundleComboArea />
+      {/* <BundleComboArea /> */}
       <BlogArea />
       <FeaturedAreaHomeTwo />
       <SidebarMain />

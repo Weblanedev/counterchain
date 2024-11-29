@@ -1,6 +1,6 @@
-import React from "react";
-import BlogAreaSingle from "./BlogAreaSingle";
-import blog_data from "@/data/blog-data";
+import React from 'react';
+// import BlogAreaSingle from './BlogAreaSingle';
+// import blog_data from "@/data/blog-data";
 
 const BlogArea = () => {
   return (
@@ -17,9 +17,9 @@ const BlogArea = () => {
             </div>
           </div>
           <div className="blog-items-wrapper">
-            {blog_data?.slice(0, 3)?.map((item) => (
+            {/* {blog_data?.slice(0, 3)?.map((item) => (
               <BlogAreaSingle key={item.id} item={item} />
-            ))}
+            ))} */}
           </div>
         </div>
       </section>

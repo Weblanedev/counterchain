@@ -20,4 +20,4 @@ const HomeTwoPage = () => {
   );
 };
 
-// export default HomeTwoPage;
+export default HomeTwoPage;
